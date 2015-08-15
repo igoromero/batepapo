@@ -18,6 +18,7 @@ public class Recebedor implements Runnable {
     }
     
     
+    @Override
     public void run(){
         Scanner s = new Scanner(this.servidor);
         while(s.hasNextLine()){
